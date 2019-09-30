@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="19b1144a2370430493e77be1e2fadff8" Name="Diagram1" ZoomLevel="93">
+        <EntityTypeShape EntityType="DBHangHoaModel.BaoCaoKiemKe" Width="1.5" PointX="5.25" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBHangHoaModel.CuaHang" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBHangHoaModel.Device" Width="1.5" PointX="5.25" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBHangHoaModel.HangHoa" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBHangHoaModel.KeHang" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBHangHoaModel.Kho" Width="1.5" PointX="3" PointY="37.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBHangHoaModel.KhuVuc" Width="1.5" PointX="1.5" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBHangHoaModel.KiemKeHangHoa" Width="1.5" PointX="7.5" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBHangHoaModel.NganhHang" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBHangHoaModel.NhaCungCap" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBHangHoaModel.NhomHang" Width="1.5" PointX="3" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBHangHoaModel.PhanCongKiemKe" Width="1.5" PointX="5.25" PointY="36.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBHangHoaModel.PhanNhomHang" Width="1.5" PointX="3" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBHangHoaModel.PLU" Width="1.5" PointX="3" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBHangHoaModel.User" Width="1.5" PointX="3" PointY="32.25" IsExpanded="true" />
+        <AssociationConnector Association="DBHangHoaModel.FK_BaoCaoKiemKe_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="DBHangHoaModel.FK_KiemKeHangHoa_BaoCaoKiemKe" ManuallyRouted="false" />
+        <AssociationConnector Association="DBHangHoaModel.FK_Kho_CuaHang" ManuallyRouted="false" />
+        <AssociationConnector Association="DBHangHoaModel.FKCuaHang9611" ManuallyRouted="false" />
+        <AssociationConnector Association="DBHangHoaModel.FKKeHang153974" ManuallyRouted="false" />
+        <AssociationConnector Association="DBHangHoaModel.FK_Devices_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="DBHangHoaModel.FK_HangHoa_NganhHang" ManuallyRouted="false" />
+        <AssociationConnector Association="DBHangHoaModel.FK_HangHoa_NhomHang" ManuallyRouted="false" />
+        <AssociationConnector Association="DBHangHoaModel.FK_KiemKeHangHoa_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="DBHangHoaModel.FKHangHoa217682" ManuallyRouted="false" />
+        <AssociationConnector Association="DBHangHoaModel.FKHangHoa263215" ManuallyRouted="false" />
+        <AssociationConnector Association="DBHangHoaModel.FKHangHoa419950" ManuallyRouted="false" />
+        <AssociationConnector Association="DBHangHoaModel.FKHangHoa439057" ManuallyRouted="false" />
+        <AssociationConnector Association="DBHangHoaModel.FK_KiemKeHangHoa_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="DBHangHoaModel.FKNhomHang454417" ManuallyRouted="false" />
+        <AssociationConnector Association="DBHangHoaModel.FK_PhanCongKiemKe_Users" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DBHangHoaModel.DuyetHangHoa" Width="1.5" PointX="5.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
